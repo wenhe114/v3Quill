@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+lib
+lib-preview
+public
+src
+types
+index.html
+tsconfig.json
+vite.config.build.ts
+vite.config.dev.ts
+vite.lib.ts
+yarn.lock
