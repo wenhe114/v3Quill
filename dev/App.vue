@@ -19,9 +19,10 @@
 import { defineComponent, ref, watch, computed, Ref } from "vue";
 import { Delta } from "quill";
 // import {vue3QuillEdit} from "../src/main"
-// import {vue3QuillEdit} from "../dist/index.js"
-import {vue3QuillEdit} from "vue3-quill-edit"
-import "vue3-quill-edit/dist/style.css"
+import {vue3QuillEdit} from "../dist/index.js"
+import  "../dist/style.css"
+// import {vue3QuillEdit} from "vue3-quill-edit"
+// import "vue3-quill-edit/dist/style.css"
 export default defineComponent({
   components: {
     vue3QuillEdit,
