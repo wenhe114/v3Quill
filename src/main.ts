@@ -1,13 +1,13 @@
 import _Quill from 'quill'
 // @ts-ignore
-import vue3QuillEdit from './index.vue'
+import v3Quill from './index.vue'
 
 const Quill = (window as any).Quill || _Quill
 const install = (Vue:any) => {
-  Vue.component(vue3QuillEdit.name, vue3QuillEdit)
+  Vue.component(v3Quill.name, v3Quill)
 }
 
-const VueQuillEditor = { Quill, vue3QuillEdit, install }
+const VueQuillEditor = { Quill, v3Quill, install }
 
 export default VueQuillEditor
-export { Quill, vue3QuillEdit, install }
+export { Quill, v3Quill, install }

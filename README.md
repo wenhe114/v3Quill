@@ -2,24 +2,24 @@
 
 ## 安装
 ```
-npm install --save-dev vue3-quill-edit --registry=http://192.168.101.176:4873
+npm install --save-dev v3-quill
 ```
 
 ### 全局使用
 
 ```
-import vue3QuillEdit from "vue3-quill-edit"
-import "vue3-quill-edit/dist/style.css"
+import v3Quill from "v3-quill"
+import "v3-quill/dist/style.css"
 main.ts 中注册组件
-app.use(vue3QuillEdit)
+app.use(v3Quill)
 
 App.vue 使用组件
 <xe-quill v-model:value="content"/>
 ```
 ### 局部使用
 ```
-import {vue3QuillEdit} from "vue3-quill-edit";
-app.components("xe-quill",vue3QuillEdit)
+import {v3Quill} from "v3-quill";
+app.components("xe-quill",v3Quill)
 App.vue 使用组件
 <xe-quill v-model:value="content"/>
 ```

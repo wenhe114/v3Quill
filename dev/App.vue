@@ -2,7 +2,7 @@
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <vue3QuillEdit
+  <v3Quill
       :toolbar="'full'"
       v-model:value="content"
       height="300px"
@@ -18,14 +18,14 @@
 
 import { defineComponent, ref, watch, computed, Ref } from "vue";
 import { Delta } from "quill";
-// import {vue3QuillEdit} from "../src/main"
-import {vue3QuillEdit} from "../dist/index.js"
+// import {v3Quill} from "../src/main"
+import {v3Quill} from "../dist/index.js"
 import  "../dist/style.css"
-// import {vue3QuillEdit} from "vue3-quill-edit"
-// import "vue3-quill-edit/dist/style.css"
+// import {v3Quill} from "v3-quill"
+// import "v3-quill/dist/style.css"
 export default defineComponent({
   components: {
-    vue3QuillEdit,
+    v3Quill,
   },
   data() {
     return {

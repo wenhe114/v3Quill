@@ -29,7 +29,7 @@ import { toolbarOptions, ToolbarOptions } from "./until/options";
 export type Module = { name: string; module: any; options?: object };
 
 export default defineComponent({
-  name: "vue3QuillEdit",
+  name: "v3Quill",
   props: {
     content: {
       type: String,
